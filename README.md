@@ -1,5 +1,5 @@
 # fast-food
-landing-page-template.netlify.app
+https://landing-page-template.netlify.app/
 
 ## Project setup
 ```
