@@ -1,4 +1,5 @@
 # fast-food
+landing-page-template.netlify.app
 
 ## Project setup
 ```
