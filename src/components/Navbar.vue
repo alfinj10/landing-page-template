@@ -1,7 +1,5 @@
 <template>
   <nav>
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
-
       <div class="logo">
           <h4>LOGO</h4>
       </div>
@@ -135,11 +133,16 @@ nav {
 }
 
 @keyframes navLinkFade {
-    from {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
         opacity: 0;
         transform: translateX(50px);
     }
-    to {
+
+    100% {
         opacity: 1;
         transform: translateX(0px);
     }
