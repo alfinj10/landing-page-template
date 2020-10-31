@@ -1,16 +1,20 @@
 <template>
   <div id="app">
+
     <Navbar />
+    <Menusection />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
+import Menusection from './components/food-menu/Menusection.vue'
 
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    Menusection
   }
 }
 </script>
